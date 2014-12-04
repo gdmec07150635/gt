@@ -27,7 +27,7 @@ git branch -d yang # 删除yang本地分支
 git branch -r # 查看远程分支
 git branch -a # 查看所有分支
 
-git checkout -b feature # 创建本地分支
+git checkout -b feature # 创建本地分支, 当前分支是那个，那么该分支就是基于那个创建的
 # bala bala
 git add .
 git commit
