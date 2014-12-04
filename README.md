@@ -56,3 +56,19 @@ git tag v1.6-light # 轻量级标签
 git push origin v1.5 # 分享标签, release is from here
 git push origin --tags # 一次性推送所有标签
 ```
+
+#### Checkout remote branch
+
+```ruby
+git fetch origin
+git checkout yang
+git branch -a
+git checkout -b yang origin/yang
+```
+
+#### Checkout remote tag
+```ruby
+git fetch --tags
+git checkout tags/tag_name
+```
+
