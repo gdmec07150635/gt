@@ -41,3 +41,18 @@ git checkout -b branch_name origin/remote_branch_name # or git checkout --track 
 git push origin :branch_name # 删除远程分支
 git branch -d branch_name # 删除本地分支
 ```
+
+#### Tag
+
+```ruby
+git tag # 查看标签
+git tag -l 'v1.4.2.*'
+
+git tag -a v1.5 -m "add v 1.5 tag" # 含附注的标签
+git show v1.5
+
+git tag v1.6-light # 轻量级标签
+
+git push origin v1.5 # 分享标签
+git push origin --tags # 一次性推送所有标签
+```
