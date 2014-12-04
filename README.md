@@ -31,7 +31,7 @@ git checkout -b feature # 创建本地分支, 当前分支是那个，那么该�
 # bala bala
 git add .
 git commit
-git push origin fenture # 把本地分支推送到远程
+git push origin feature # 把本地分支推送到远程
 ```
 
 
@@ -53,6 +53,6 @@ git show v1.5
 
 git tag v1.6-light # 轻量级标签
 
-git push origin v1.5 # 分享标签
+git push origin v1.5 # 分享标签, release is from here
 git push origin --tags # 一次性推送所有标签
 ```
