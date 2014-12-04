@@ -26,6 +26,12 @@ git merge yang # 合并yang到当前分支，这里是master
 git branch -d yang # 删除yang本地分支
 git branch -r # 查看远程分支
 git branch -a # 查看所有分支
+
+git checkout -b feature # 创建本地分支
+# bala bala
+git add .
+git commit
+git push origin fenture # 把本地分支推送到远程
 ```
 
 
