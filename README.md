@@ -30,7 +30,8 @@ git branch -a # 查看所有分支
 
 
 ```ruby
-git push origin branch_name # 把分支推送到远程
+git push origin branch_name:remote_branch_name # 把分支推送到远程, 通常本地分支的名字和远程分支相同
+git checkout -b branch_name origin/remote_branch_name # or git checkout --track origin/remote_branch_name
 git push origin :branch_name # 删除远程分支
 git branch -d branch_name # 删除本地分支
 ```
