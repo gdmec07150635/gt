@@ -72,3 +72,9 @@ git fetch --tags
 git checkout tags/tag_name
 ```
 
+#### Rebase
+
+```ruby
+git rebase master # rebase vs master
+```
+
